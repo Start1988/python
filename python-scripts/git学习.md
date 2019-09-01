@@ -10,7 +10,7 @@
 1. 了解工作区状态
     ```
     git status #查看工作区状态
-    git diff 查看修改内容
+    git diff #查看修改内容
     ```
 2. 了解版本变化
     ```
@@ -19,9 +19,9 @@
     git reflog #查看命令历史，以便确认回到未来的分支
     ```
 3. 回到过去
-    - HEAD指向当前版本，
-    - HEAD^指向上一个版本，
-    - HEAD^^指向上两个版本;HEAD~100:上100个版本
+    - HEAD      #指向当前版本，
+    - HEAD^     #指向上一个版本，
+    - HEAD^^    #指向上两个版本;HEAD~100:上100个版本
     ```
     git reset --hard commit_id #回到某一个版本
     ```
@@ -36,8 +36,8 @@
     - git commit 的是git add的内容，而并非文件差异
 6. 撤销更改
    ```
-    git checkout -- file 让文件回到最近一次 git add 或者git commit的状态
-    git reset HEAD <file> :撤销暂存区的修改
+    git checkout -- file #让文件回到最近一次 git add 或者git commit的状态
+    git reset HEAD <file> #撤销暂存区的修改
     ```
 7. 删除文件
     ```
